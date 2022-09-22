@@ -6,7 +6,7 @@ Please execute following commands to reproduce the example.
 
 After building and packaging you have the folder `./mods` with the `module-0.0.1-SNAPSHOT.jar` and `app-0.0.1-SNAPSHOT.jar` and the `./lib` folder with a all our dependency jars.
 
-Now we can start our application with the following command (requires java 11 or java 17):
+Now we can start our application with the following command (requires java 11):
 
 ```bash
 java --module-path ./mods:./lib -m app/com.example.app.AppApplication
