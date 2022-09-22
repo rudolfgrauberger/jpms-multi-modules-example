@@ -22,27 +22,39 @@ You're going to see the following output:
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
   '  |____| .__|_| |_|_| |_\__, | / / / /
  =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.2.7.RELEASE)
+ :: Spring Boot ::        (v2.2.8.RELEASE)
 
-2022-09-22 11:48:59.485  INFO 63578 --- [           main] com.example.app.AppApplication           : Starting AppApplication on Rudolfs-MBP.fritz.box with PID 63578 (/Users/rudolfgrauberger/Dev/Rest/module/./mods/app-0.0.1-SNAPSHOT.jar started by rudolfgrauberger in /Users/rudolfgrauberger/Dev/Rest/module)
-2022-09-22 11:48:59.487  INFO 63578 --- [           main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
-2022-09-22 11:48:59.747  INFO 63578 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-09-22 11:48:59.777  INFO 63578 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 1 JPA repository interfaces.
-2022-09-22 11:49:00.205  INFO 63578 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-09-22 11:49:00.212  INFO 63578 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-09-22 11:49:00.213  INFO 63578 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2022-09-22 11:49:00.254  INFO 63578 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-09-22 11:49:00.254  INFO 63578 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 731 ms
-2022-09-22 11:49:00.338  INFO 63578 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-09-22 11:49:00.464  INFO 63578 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-09-22 11:49:00.500  INFO 63578 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-22 11:49:00.529  INFO 63578 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version [WORKING]
-2022-09-22 11:49:00.612  INFO 63578 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2022-09-22 11:49:00.674  INFO 63578 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2022-09-22 11:49:00.968  INFO 63578 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-09-22 11:49:00.971  INFO 63578 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-09-22 11:49:01.137  WARN 63578 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-09-22 11:49:01.198  INFO 63578 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2022-09-22 11:49:01.355  INFO 63578 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-09-22 11:49:01.357  INFO 63578 --- [           main] com.example.app.AppApplication           : Started AppApplication in 2.07 seconds (JVM running for 2.422)
+2022-09-22 11:54:37.500  INFO 64502 --- [           main] com.example.app.AppApplication           : Starting AppApplication on Rudolfs-MBP.fritz.box with PID 64502 (/Users/rudolfgrauberger/Dev/Rest/module/./mods/app-0.0.1-SNAPSHOT.jar started by rudolfgrauberger in /Users/rudolfgrauberger/Dev/Rest/module)
+2022-09-22 11:54:37.501  INFO 64502 --- [           main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2022-09-22 11:54:37.773  INFO 64502 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-22 11:54:37.805  INFO 64502 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 1 JPA repository interfaces.
+2022-09-22 11:54:38.209  INFO 64502 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-22 11:54:38.217  INFO 64502 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-22 11:54:38.217  INFO 64502 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2022-09-22 11:54:38.259  INFO 64502 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-22 11:54:38.259  INFO 64502 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 718 ms
+2022-09-22 11:54:38.303  WARN 64502 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'bookApi'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookApi': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookRepository': Cannot create inner bean '(inner bean)#3901f6af' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#3901f6af': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+2022-09-22 11:54:38.305  INFO 64502 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-22 11:54:38.315  INFO 64502 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-22 11:54:38.350 ERROR 64502 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.example.module.api.BookApi required a bean named 'entityManagerFactory' that could not be found.
+
+The injection point has the following annotations:
+        - @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
 ```
+
+You see, that after Upgrade to Spring-Boot 2.2.8.RELEASE this application not working anymore.
