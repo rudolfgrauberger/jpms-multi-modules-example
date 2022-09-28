@@ -1,3 +1,7 @@
+## About
+This repository contains only the reproducible example for my question on stackoverflow.com: [Consider defining a bean named 'entityManagerFactory' in your configuration after Update from Spring Boot 2.2.7](https://stackoverflow.com/questions/73813235/consider-defining-a-bean-named-entitymanagerfactory-in-your-configuration-afte)
+
+## Instruction
 Please execute following commands to reproduce the example.
 
 ```bash
