@@ -11,6 +11,7 @@ module app {
     requires com.fasterxml.classmate;
     requires java.xml.bind;
     requires jakarta.activation;
+    requires com.zaxxer.hikari;
 
     exports com.example.app to spring.beans, spring.context;
     exports com.example.app.rest to spring.beans;
